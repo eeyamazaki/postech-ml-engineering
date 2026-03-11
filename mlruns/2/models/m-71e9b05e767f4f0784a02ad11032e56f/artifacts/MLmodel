@@ -1,0 +1,23 @@
+artifact_path: file:c:/Users/erick/projetos/alura-aula2.2/mlruns/2/models/m-71e9b05e767f4f0784a02ad11032e56f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-71e9b05e767f4f0784a02ad11032e56f
+model_size_bytes: 1506169
+model_uuid: m-71e9b05e767f4f0784a02ad11032e56f
+prompts: null
+run_id: 2687e2072f91445c8e0397925dcbf7ef
+utc_time_created: '2026-03-11 19:13:18.643709'
